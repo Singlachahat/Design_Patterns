@@ -1,10 +1,9 @@
 package Behvioural_patterns.iterator_pattern;
 
 import java.util.List;
-import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class WaiterIterator implements Iterator<Waiter> {
+public class WaiterIterator implements Iterator1<Waiter> {
     public int currentIndex=0;
     public List<Waiter> waiters;
 

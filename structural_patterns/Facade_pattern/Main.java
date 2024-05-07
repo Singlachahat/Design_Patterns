@@ -20,6 +20,7 @@ public class Main {
         // Schedule appointment
         emrFacade.scheduleAppointment("2024-05-01");
         //System.out.println(emrFacade.MedicalRecord.patientData);
+        
     }
 }
 

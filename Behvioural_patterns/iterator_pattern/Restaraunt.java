@@ -10,7 +10,7 @@ public class Restaraunt implements Aggregate<Waiter> {
     }
 
     @Override
-    public Iterator<Waiter> createIterator() {
+    public Iterator1<Waiter> createIterator() {
         return new WaiterIterator(waiters);
     }
 }
